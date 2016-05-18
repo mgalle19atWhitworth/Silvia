@@ -1,0 +1,56 @@
+#pragma once
+#include <string>
+#include <iostream>
+#include <cctype>
+using namespace std;
+extern char choice;
+extern int win;
+void opening();
+string randomRooms();
+string randomCreatures();
+void leftPath();
+void leftPathSkeleton();
+void rightPath();
+void sneak();
+void goAround();
+void attack();
+void restart();
+int main();
+void back();
+void battle(int enemyHealth, int playerHealth, string enemyName, int swordStrength, int enemyStrength);
+void centaurs();
+void reason();
+void fight();
+void victoryCentaurs();
+void reasonHouse();
+void fightHouse();
+void Griffin();
+void victoryGriffin();
+void tower();
+void finalBossWoods();
+void exit();
+void fightDemon();
+void cyclopsVictory();
+void skeletonVictory();
+void chimaera();
+void minotaur();
+void ghosts();
+void carnivorousPlants();
+void tower4();
+void tower2();
+void tower3();
+void towerFail();
+void towerFunctions();
+void dragon();
+void dragonBattle();
+void dragonVictory();
+void openChest();
+void necromancer();
+void necromancerVictory();
+void victoryDemon();
+void endProgram();
+void BOSS();
+void endProgramFromBattle();
+void towerVictoryAndOpenChestSwordChoice(int hp);
+void towerFailAndForwardAndNoChestSwordChoice(int hp);
+void stuff(int hp, string BossName);
